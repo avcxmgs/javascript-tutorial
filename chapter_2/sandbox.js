@@ -12,3 +12,6 @@ console.log(points);
 
 var score = 75;     //older way to create variables
 console.log(score);
+
+/* when using newer variables (let/const), they might not always work in 100% of browsers
+    older browsers, like IE11, don't support the modern features */
