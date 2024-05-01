@@ -1,5 +1,5 @@
-let age = 25;
-let year = 2019;
+let myAge = 25;       //basic variable, no spaces in a variable name. can't start with a number
+let year = 2019;        //reserved words: const, let, var, etc
 
 console.log(age, year);
 
@@ -9,3 +9,6 @@ console.log(age);
 const points = 100;
 // points = 50;         can't do this bc the const variable makes it constant
 console.log(points);
+
+var score = 75;     //older way to create variables
+console.log(score);
