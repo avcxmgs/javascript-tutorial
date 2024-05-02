@@ -1,8 +1,16 @@
-// const para = document.querySelector('body > h1');
+// //get element by ID
+// const title = document.getElementById('page-title');
+// console.log(title);
 
-// console.log(para);
+// //get elements by class name
+// const errors = document.getElementsByClassName('error');
+// console.log(errors);
+// console.log(errors[0]);
+// // errors.forEach(error =>{
+// //     console.log(error);
+// // })       can't use forEach w the elements
 
-const paras = document.querySelectorAll('p');
-const errors = document.querySelectorAll('.error');
-
-console.log(errors);
+//get elements by tag name
+const paras = document.getElementsByTagName('p');
+console.log(paras);
+console.log(paras[1]);
