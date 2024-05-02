@@ -1,11 +1,14 @@
-const name = 'shaun';
+//callbacks and foreach
 
-//functions
-const greet = () => 'hello';
+const myFunc = (callbackFunc) => {
+    //do something
+    let vlue = 50;
+    callbackFunc(value);
+};
 
-let resultOne = greet();
-console.log(resultOne);
+myFunc(function(value){
+    //do something
+    console.log(value);
+});
 
-//methods
-let resultTwo = name.toUpperCase()
-console.log(resultTwo);
+//let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
