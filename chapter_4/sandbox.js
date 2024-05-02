@@ -1,14 +1,9 @@
 //callbacks and foreach
 
-const myFunc = (callbackFunc) => {
-    //do something
-    let vlue = 50;
-    callbackFunc(value);
-};
+let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 
-myFunc(function(value){
-    //do something
-    console.log(value);
-});
+const logPerson = (person, index) => {
+    console.log(`${index} - hello ${person}`);
+}
 
-//let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
+people.forEach(logPerson);
